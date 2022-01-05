@@ -1,0 +1,65 @@
+.wrapper{
+    background-color:#16202A;
+    height: 80vh;
+    overflow: auto;
+}
+.heroWrapper{
+    height: 70%;
+    width: 80%;
+    display: grid;
+    grid-template-rows: 50% 40% 10%;
+    grid-template-columns: 60% 40%;
+    margin-top: 90px;
+    row-gap: 15px;
+    margin: 40px auto 0 auto;
+    align-items: center;
+}
+.heroWrapper h1{
+    height: auto;
+    color: white;
+    grid-column: 1/1;
+    grid-row: 1/1;
+    font-size: 90px;
+}
+.heroWrapper h3{
+    height: auto;
+    grid-column: 1/1;
+    grid-row: 2/2;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    
+}
+.heroWrapper button{
+    height: auto;
+    grid-column: 1/1;
+    grid-row: 3/3;
+    height: 50px;
+    width: 200px;
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #FC6B2E;
+    color: white;
+    transition: all 1s;
+    font-size: 15px;
+}
+.heroWrapper button:hover{
+    background-color: rgb(216, 115, 0);
+    color: rgb(255, 255, 255);
+    width: 220px;
+}
+.heroWrapper svg{
+    grid-column: 2/2;
+    grid-row: 1/4;
+    height: 60%;
+    margin: auto;
+}
+@media screen and (max-width:720px){
+    
+    .heroWrapper{
+        height: 100vh;
+        grid-template-rows: 50% 50% ;
+        grid-template-columns: 100% ;
+    }
+}
