@@ -1,0 +1,54 @@
+[
+    {
+       "nombre":"HTML5",
+       "descipcion":"LALALLALA BUBU TEAMOOOO",
+       "icono":"DiHtml5",
+       "color":"#D45721"
+
+    },
+    {
+       "nombre":"CSS3",
+       "descipcion":"muchito mua",
+       "icono":"DiCss3",
+       "color":"#5CCFEE"
+
+    },
+    {
+       "nombre":"Javascript",
+       "icono":"DiJavascript1",
+       "color":"#E6A128"
+
+    },
+    {
+       "nombre":"React",
+       "icono":"DiReact",
+       "color":"#5CCFEE"
+        
+       
+    },
+    {
+        "nombre":"Java",
+        "icono":"DiJava",
+        "color":"#EC2025"
+
+
+     },
+     {
+      "nombre":"vb.NET",
+      "icono":"DiVisualstudio",
+      "color":"#AB47BC"
+      
+   },
+     {
+        "nombre":"MySQL",
+        "icono":"DiMysql",
+        "color":"#CF8921"
+     },
+     {
+        "nombre":"Git",
+        "icono":"DiGit",
+        "color":"#E84E31"
+     }
+    
+
+ ]

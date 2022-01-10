@@ -1,5 +1,7 @@
 import React from 'react'
 import style from '../Styles/heroSection.css'
+import heroImage from '../Images/heroImage.svg'
+import{ MdKeyboardArrowDown } from 'react-icons/md'
 function HeroSection(props) {
     
     return(
@@ -16,9 +18,9 @@ function HeroSection(props) {
             <button>
                 Contactame
             </button>
-            <svg>
-
-            </svg>
+            <img src={heroImage} className='heroImage'/>
+            <MdKeyboardArrowDown/>
+            
         </div>
         </div>
     )

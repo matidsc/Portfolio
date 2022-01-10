@@ -1,28 +1,42 @@
-nav{
-    display: flex;
+nav {
     background-color: #16202A;
-   width: 100%;
+    width: 100%;
+}
+nav .content{
+    display: flex;
+    width: 90%;
+    margin: auto;
     height: 20vh;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
-nav ul{
+.content ul{
 
     list-style: none;
     display: flex;
     column-gap: 7vw;
 }
-nav ul li
+.content ul li
 {
     font-size: 1.1em;
 }
-nav a{
+.content a{
     text-decoration: none;
     color: rgb(161, 161, 161);
     transition: all 1s;
 }
-nav a:hover{
+.content a:hover{
 
     color: white;
 
+}
+.navContact svg{
+    cursor: pointer;
+    margin: 10px;
+    transition: all 1s;
+
+}
+.navContact svg:hover{
+
+    fill: white;
 }

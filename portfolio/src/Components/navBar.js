@@ -1,19 +1,30 @@
+
 import React from 'react'
 import style from '../Styles/navbar.css'
+import { FaCode } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+
 const NavBar=()=> {
-    
+        
     return(
         
             <nav>
-                
+                <div className='content'>
+                <FaCode size='40'color='rgb(187, 185, 185)'/>
                 <ul>
-                    <li><a href=''>Home</a></li>
-                    <li><a href=''>Habilidades</a></li>
+                    <li><a href=''>Inicio</a></li>
+                    <li><a href=''>Tecnologías</a></li>
                     <li><a href=''>Proyectos</a></li>
                     <li><a href=''>Sobre mí</a></li>
                     <li><a href=''>Contacto</a></li>
                 </ul>
+                <div className='navContact'>
+                <FaGithub size='40'color='rgb(187, 185, 185)'/>
+                <FaLinkedin size='40'color='rgb(187, 185, 185)'/>
 
+                </div>
+                </div>
             </nav>
 
         

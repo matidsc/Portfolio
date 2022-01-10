@@ -1,5 +1,62 @@
 .habilidadesWrapper{
     height: 100vh;
-    background-color: red;
+    background-color: #16202A;
     width: 100%;
+    display: grid;
+}
+.cuadrohabilidades{
+    display: grid;
+    width: 100%;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
+}
+.cuadrohabilidades h1{
+    text-align: center;
+    color: rgb(187, 185, 185);
+    margin-top: 20px;
+}
+.cuadrohabilidades h1::before,.cuadrohabilidades h1::after{
+    background-color: #db6c3c;
+    display: inline-block;
+    content: '';
+    position: relative;
+    width: 30px;
+    height: 5px;
+    
+}
+.cuadrohabilidades h1::before{
+    top: 1.2em;
+    left:0;
+}
+.cuadrohabilidades h1::after{
+    top: -1.2em;
+    right:0;
+}
+.habilidades{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50% 50%;
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 1000px;
+}
+.habilidad{
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.1);    
+    height: 250px;
+    color: rgb(187, 185, 185);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.habilidad h3{
+    font-weight: 300;
 }
