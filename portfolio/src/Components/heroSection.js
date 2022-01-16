@@ -1,5 +1,5 @@
 import React from 'react'
-import style from '../Styles/heroSection.css'
+import '../Styles/heroSection.css'
 import heroImage from '../Images/heroImage.svg'
 import{ MdKeyboardArrowDown } from 'react-icons/md'
 function HeroSection(props) {
@@ -12,9 +12,9 @@ function HeroSection(props) {
             Hola,<br/> soy Matías
             </h1>
 
-            <h3>
+            <h2>
                 Desarrollador Front-end
-            </h3>
+            </h2>
             <button>
                 Contactame
             </button>

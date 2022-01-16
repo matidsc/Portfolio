@@ -1,14 +1,17 @@
 import React from 'react'
-import style from '../Styles/habilidades.css'
-const SectionWrapper = () => {
+import '../Styles/habilidades.css'
+const SectionWrapper = (props) => {
 
     return (
         
         <div className='habilidadesWrapper'>
 
             <div className='cuadrohabilidades'>
-            
-            
+                <h1>{props.titulo}</h1>
+                <div className='habilidades'>
+                    {props.content}
+
+                </div>
             </div>
         </div>
     )

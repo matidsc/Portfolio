@@ -22,12 +22,12 @@ nav .content{
 }
 .content a{
     text-decoration: none;
-    color: rgb(161, 161, 161);
+    color: var(--text-unfocused-color);
     transition: all 1s;
 }
 .content a:hover{
 
-    color: white;
+    color: var(--text-focused-color);
 
 }
 .navContact svg{

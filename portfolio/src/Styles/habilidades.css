@@ -1,6 +1,6 @@
 .habilidadesWrapper{
     height: 100vh;
-    background-color: #16202A;
+    background-color: var(--main-bg-color);
     width: 100%;
     display: grid;
 }
@@ -21,18 +21,33 @@
     display: inline-block;
     content: '';
     position: relative;
-    width: 30px;
+    width: 20px;
     height: 5px;
-    
+    animation: animacion 1s infinite alternate backwards;
+  
 }
 .cuadrohabilidades h1::before{
     top: 1.2em;
     left:0;
+
 }
 .cuadrohabilidades h1::after{
     top: -1.2em;
     right:0;
+
 }
+@keyframes animacion {
+    from {
+
+      width: 20px;
+    }
+    to {
+        width: 30px;
+        box-shadow: 
+        0 0 25px #db6c3c;
+       
+    }
+  }
 .habilidades{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
