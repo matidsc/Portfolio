@@ -4,13 +4,12 @@ const SectionWrapper = (props) => {
 
     return (
         
-        <div className='habilidadesWrapper'>
+        <div className='sectionWrapper'>
 
-            <div className='cuadrohabilidades'>
-                <h1>{props.titulo}</h1>
-                <div className='habilidades'>
+            <div className='contentWrapper'>
+                <h1 className='titulo'>{props.titulo}</h1>
+                <div className={props.class}>
                     {props.content}
-
                 </div>
             </div>
         </div>

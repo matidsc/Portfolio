@@ -8,7 +8,7 @@ const Habilidades = () => {
 
     return (
         <div  id='tecnologias'>
-        <SectionWrapper content={skill.map((skill, index) =>
+        <SectionWrapper class='content'content={skill.map((skill, index) =>
 
             <Skill color={skill.color} icono={skill.icono} key={index} nombre={skill.nombre} descripcion={skill.descipcion} />
 

@@ -1,22 +1,24 @@
-.habilidadesWrapper{
+.sectionWrapper{
     height: 100vh;
     background-color: var(--main-bg-color);
     width: 100%;
     display: grid;
 }
-.cuadrohabilidades{
+.contentWrapper{
     display: grid;
     width: 100%;
     height: 95%;
-    justify-content: center;
     align-items: center;
+    justify-items: center;
+    grid-template-rows: 25% 75%;
+    grid-template-columns: 100%;
 }
-.cuadrohabilidades h1{
+.contentWrapper .titulo{
+    grid-row: 1/2;
     text-align: center;
     color: rgb(187, 185, 185);
-    margin-top: 20px;
 }
-.cuadrohabilidades h1::before,.cuadrohabilidades h1::after{
+.contentWrapper .titulo::before,.contentWrapper .titulo::after{
     background-color: #db6c3c;
     display: inline-block;
     content: '';
@@ -24,14 +26,14 @@
     width: 20px;
     height: 5px;
     animation: animacion 1s infinite alternate backwards;
-  
+    
 }
-.cuadrohabilidades h1::before{
+.contentWrapper .titulo::before{
     top: 1.2em;
     left:0;
 
 }
-.cuadrohabilidades h1::after{
+.contentWrapper .titulo::after{
     top: -1.2em;
     right:0;
 
@@ -48,14 +50,25 @@
        
     }
   }
-.habilidades{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 50% 50%;
-    align-content: center;
+  .content, .aboutCards{
     row-gap: 10px;
     column-gap: 10px;
-    width: 1000px;
+    width: 65%;
+    justify-content: center;
+    height: 100%;
+    
+  }
+.content{
+    grid-template-columns:repeat(5, 20%);
+    grid-template-rows: repeat(2,50%);
+    display: grid;
+    grid-row: 2/3;
+    align-content: center;
+
+}
+.aboutCards{
+    display: flex;
+
 }
 .habilidad{
     backdrop-filter: blur(14px);
@@ -70,8 +83,12 @@
     justify-content: center;
     row-gap: 40px;
     column-gap: 40px;
+    transition: 0.5s all;
 }
 
-.habilidad h3{
-    font-weight: 300;
+.habilidad:hover{
+    height: 255px;
+    background-color: rgba(255, 255, 255, 0.12);    
 }
+
+.habilidad h3{font-weight: 300;}

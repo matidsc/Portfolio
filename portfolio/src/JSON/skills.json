@@ -18,7 +18,7 @@
 
     },
     {
-       "nombre":"React",
+       "nombre":"ReactJS",
        "icono":"DiReact",
        "color":"#5CCFEE"
         
@@ -27,7 +27,7 @@
     {
         "nombre":"Java",
         "icono":"DiJava",
-        "color":"#EC2025"
+        "color":"#E12329"
 
 
      },
