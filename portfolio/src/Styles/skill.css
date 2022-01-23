@@ -1,6 +1,6 @@
 .habilidad{
     backdrop-filter: blur(14px);
-    background-color: rgba(255, 255, 255, 0.1);    
+    background-color: var(--thrd-bg-color);
     height: 250px;
     color: rgb(187, 185, 185);
     border-radius: 15px;
@@ -11,7 +11,7 @@
     justify-content: center;
     row-gap: 40px;
     column-gap: 40px;
-    transition: 0.3s all;
+    transition: 0.3s all;    
 }
 
 .habilidad:hover{

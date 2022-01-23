@@ -13,6 +13,7 @@ html{
 
   --main-bg-color:#16202A;
   --sec-bg-color:rgba(255, 255, 255, 0.1);
+  --thrd-bg-color:#212a33;
   --text-unfocused-color:rgb(187, 185, 185);
   --text-focused-color:white;
 }

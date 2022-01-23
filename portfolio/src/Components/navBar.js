@@ -20,8 +20,8 @@ const NavBar=()=> {
                     <li><a href='#contacto'>Contacto</a></li>
                 </ul>
                 <div className='navContact'>
-                <FaGithub size='40'color='rgb(187, 185, 185)'/>
-                <FaLinkedin size='40'color='rgb(187, 185, 185)'/>
+                <a><FaGithub size='40'color='rgb(187, 185, 185)'/></a>
+                <a href='https://www.linkedin.com/in/MatiasDaSilva-178625212'target="_blank"><FaLinkedin size='40'color='rgb(187, 185, 185)'/></a> 
 
                 </div>
                 </div>
