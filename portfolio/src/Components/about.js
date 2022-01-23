@@ -1,22 +1,23 @@
 import React from 'react';
 import SectionWrapper from './sectionWrapper';
 import AboutCard from './aboutCard';
+import cards from '../JSON/about.json'
+
+/*      <div className='hola'>
+            <h1></h1>
+        </div> 
+*/
 const About =()=>{
-    var about =[]
-    for (let i = 0; i < 4; i++) {
 
-        about.push(i)
-    }
     return(
-
-       <SectionWrapper class='aboutCards' titulo='Sobre mí'
-       content={
-            about.map(card=>
-            <AboutCard year='2018'/>
-            )
-       }
-       />
-    
+        <div id='about'>
+       <SectionWrapper class='aboutCards' titulo='Sobre mí'>
+              
+        {cards.map(card=>
+            <AboutCard titulo={card.Nombre} year={card.Year} infoContent={card.infoContent}/>
+       )}
+       </SectionWrapper>
+       </div>
        )
 
 }

@@ -19,8 +19,10 @@ function HeroSection() {
                     Contactame
                 </button>
                 <img src={heroImage} className='heroImage' />
-                <MdKeyboardArrowDown />
-
+                
+                <MdKeyboardArrowDown size='32'color='white' className='arrow'/>
+               
+                <MdKeyboardArrowDown/>
             </div>
         </div>
     )

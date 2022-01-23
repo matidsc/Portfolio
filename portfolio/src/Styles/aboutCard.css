@@ -1,9 +1,18 @@
+.hola{
+    height: 100%;
+    grid-row: 1/2;
+    grid-column: 1/5;
+    color: white;
+}
 .cardWrapper{
+    grid-row: 2/3;
+    color: white;
     transform: translate3d(0, 0, 0);
     width: 100%;
     overflow: hidden;
     transition: width 0.5s ease;
-    background-color: gray;
+    background-color: var(--sec-bg-color);
+    height: 100%;
 }
 .cardWrapper:hover{
     width: 125%;
@@ -19,29 +28,70 @@
 }
 .cardWrapper::before{
 
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 75%);
-    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, var(--main-bg-color)90%);
     opacity: 0;
-    transform: translate3d(0, 0, 0) translateY(50%);
+    transform: translateY(50%);
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 .cardWrapper:hover::before {
     opacity: 1;
-    transform: translate3d(0, 0, 0) translateY(0);
+    transform:translateY(0);
     transition: opacity 1s ease, transform 1s ease 0.25s;
 }
 .cardWrapper:hover .info{
     transform: translateY(0);
-    transition: opacity 1s;
+    transition: all 1s 0.5s;
     opacity: 1;
 }
 .info{
-    transform: translate3d(0, 0, 0) translateY(25px);
+    transform:translateY(25px);
     position: relative;
     z-index: 1;
     text-align: center;
     margin: 0 1.618em;
-    top: 55%;
+    top: 50%;
     opacity: 0;
-    color: wheat;
+    color: white;
+    height: 100%;
+    padding: 10%;
+ 
+}
+.year{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    color: white;
+    transition: all 1s;
+}
+.cardWrapper:hover .year{
+    left: 10%;
+    top: 10%;
+    transform: translate(-10%,-10%);
+}
+.cardWrapper:hover .year::before{
+   opacity: 0;
+}
+.cardWrapper:hover .year::after{
+    opacity: 0;
+ }
+.year::before,.year::after{
+
+    display: inline-block;
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 3px;
+    background-color: white;
+    transition: 0.5s all;
+}
+.year::before{
+
+    left: -40%;
+    top: 120%;
+}
+.year::after{
+
+    right: -40%;
+    top: -20%;
 }
