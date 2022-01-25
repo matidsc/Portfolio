@@ -2,19 +2,42 @@
     height: 100%;
     grid-row: 2/3;
     grid-column: 1/5;
-    color: white;
     width: 100%;
     background-color: var(--thrd-bg-color);
-    padding: 3%;
+    padding: 3% 6%;
+    cursor: pointer;
+    display: flex;
+    background: linear-gradient(to left,#ca7034, #ee7752);
+	animation: gradient 5s ease infinite;
+    justify-content: space-between;
+    background-size: 400%;
+    color: white;
+    
+}
+
+
+@keyframes gradient {
+	
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.hola,.cardWrapper{
     box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
     0 2px 4px rgba(0,0,0,0.07), 
     0 4px 8px rgba(0,0,0,0.07), 
-    0 8px 16px rgba(0,0,0,0.07)
-}
+    0 8px 16px rgba(0,0,0,0.07);
+    border-radius: 15px;
 
+}
 .hola h1{
-    font-size: 20px;
-    text-align: center;
+    font-size: 30px;
 }
 .cardWrapper{
     grid-row: 1/2;
@@ -25,11 +48,7 @@
     transition: width 0.5s ease;
     background-color: var(--thrd-bg-color);
     height: 100%;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
-    0 2px 4px rgba(0,0,0,0.07), 
-    0 4px 8px rgba(0,0,0,0.07), 
-    0 8px 16px rgba(0,0,0,0.07)
- 
+    cursor: default;
 }
 @media screen and(max-width:768px) {
     .cardWrapper{
@@ -39,7 +58,7 @@
     } 
  }
 .cardWrapper:hover::before{opacity: 1;}
-.cardWrapper::after,.cardWrapper::before{
+.cardWrapper::before{
     content: '';
     position: absolute;
     left: 0;
@@ -59,15 +78,17 @@
     transition: opacity 1s ease, transform 1s ease 0.25s;
 }
 .cardWrapper:hover .info{
-    transform: translateY(0);
+    transform: translateY(-20%);
     transition: all 1s 0.5s;
     opacity: 1;
 }
 .info{
-    transform:translateY(25px);
+    display: flex;
+    flex-direction: column;
+    row-gap: 3%;
+    transform:translateY(-50px);
     position: relative;
-    z-index: 1;
-    text-align: center;
+    z-index: 1; 
     margin: 0 1.618em;
     top: 50%;
     opacity: 0;
@@ -75,6 +96,10 @@
     height: 100%;
     padding: 10%;
 }
+.info h1{font-size: 28px;color: #ee7752;;}
+.info p{font-weight: 300;}
+.info p,.info h1{text-align: center;}
+
 .year{
     position: absolute;
     transform: translate(-50%,-50%);
@@ -84,9 +109,9 @@
     transition: all 1s;
 }
 .cardWrapper:hover .year{
-    left: 10%;
+    left: 15%;
     top: 10%;
-    transform: translate(-10%,-10%);
+    transform: translate(-15%,-10%);
 }
 .cardWrapper:hover .year::before{
    opacity: 0;
