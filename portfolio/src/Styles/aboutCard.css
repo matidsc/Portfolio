@@ -1,20 +1,20 @@
 .hola{
-    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     grid-row: 2/3;
     grid-column: 1/5;
+    height: 100%;
     width: 100%;
     background-color: var(--thrd-bg-color);
     padding: 3% 6%;
     cursor: pointer;
-    display: flex;
     background: linear-gradient(to left,#ca7034, #ee7752);
-	animation: gradient 5s ease infinite;
-    justify-content: space-between;
     background-size: 400%;
     color: white;
-    
-}
+    animation: gradient 5s ease infinite;
 
+}
 
 @keyframes gradient {
 	
