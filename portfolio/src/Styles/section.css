@@ -66,7 +66,7 @@
 .aboutCards{
    display: grid;
     grid-template-rows:  80% 20%;
-    grid-template-columns: repeat(4,25%);
+    grid-template-columns: repeat(5,20%);
 
     /*display: flex;*/
 

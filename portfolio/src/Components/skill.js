@@ -12,7 +12,7 @@ const Skill = props => {
     return (
         <div className='habilidad'>
             <h2>{props.nombre}</h2>
-             <Icon iconName={props.icono} size={60} color={props.color}/>
+             <Icon iconName={props.icono} size='400%' color={props.color}/>
         </div>
     )
 }

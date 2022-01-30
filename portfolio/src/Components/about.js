@@ -9,8 +9,8 @@ const About =()=>{
         <div id='about'>
        <SectionWrapper class='aboutCards' titulo='Sobre mí'>
               
-        {cards.map(card=>
-            <AboutCard titulo={card.Nombre} year={card.Year} infoContent={card.infoContent}/>
+        {cards.map((card,index)=>
+            <AboutCard key={index} titulo={card.Nombre} year={card.Year} infoContent={card.infoContent}/>
        )}
           <div className='hola'>
             <h1>Descarga mi currículum</h1>
