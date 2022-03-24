@@ -12,6 +12,12 @@
 
     },
     {
+      "nombre":"SASS",
+      "icono":"DiSass",
+      "color":"#D25191"
+
+   },
+    {
        "nombre":"Javascript",
        "icono":"DiJavascript1",
        "color":"#E6A128"

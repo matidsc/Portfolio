@@ -9,6 +9,18 @@ body {
 html{
   scroll-behavior: smooth;
 }
+::-webkit-scrollbar{
+  width: 12px;
+
+}
+::-webkit-scrollbar-track{
+  border-radius: 100vh;
+  background: #1f2937;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(rgb(255, 196, 85),var(--main-orange-color));
+}
+
 :root{
 
   --main-bg-color:#16202A;
@@ -16,5 +28,6 @@ html{
   --thrd-bg-color:#212a33;
   --text-unfocused-color:rgb(187, 185, 185);
   --text-focused-color:white;
+  --main-orange-color:#db6c3c;
 }
 
