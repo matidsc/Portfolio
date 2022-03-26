@@ -8,3 +8,7 @@
 body{
     background-color:rgb(26, 26, 26) ;
 }
+button{
+    cursor: pointer;
+    transition: all 0.5s;
+}
