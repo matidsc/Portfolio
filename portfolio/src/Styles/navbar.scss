@@ -1,0 +1,40 @@
+nav {
+	background-color: #16202A;
+	width: 100%;
+	.content {
+		display: flex;
+		width: 90%;
+		margin: auto;
+		height: 20vh;
+		justify-content: space-around;
+		align-items: center;
+	}
+}
+.content {
+	ul {
+		list-style: none;
+		display: flex;
+		column-gap: 7vw;
+		li {
+			font-size: 1.1em;
+		}
+	}
+	a {
+		text-decoration: none;
+		color: var(--text-unfocused-color);
+		transition: all 1s;
+		&:hover {
+			color: var(--text-focused-color);
+		}
+	}
+}
+.navContact {
+	svg {
+		cursor: pointer;
+		margin: 10px;
+		transition: all 1s;
+		&:hover {
+			fill: white;
+		}
+	}
+}

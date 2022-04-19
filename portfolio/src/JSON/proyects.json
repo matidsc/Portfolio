@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "Titulo": "Sistema de autoconsulta médica",
+    "Descripcion": "Proyecto final estudiantil desarrollado en Vb.NET y MySQL que consistió en la creación de un sistema donde pacientes podían obtener un diagnóstico primario según los síntomas ingresados y poder comunicarse con su médico mediante un chat si así desearan.",
+    "Github": "",
+    "Live": "",
+    "Tecnologias": [
+      {
+        "nombre": "DiVisualstudio",
+        "color": "#AB47BC"
+      },
+      {
+        "nombre": "DiMysql",
+        "color": "#CF8921"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "Titulo": "E-commerce",
+    "Descripcion": "Proyecto final donde utlicé ReactJS, SASS y Firebase para crear el frontend de un e-commerce con carrito de compras. ",
+    "Github": "",
+    "Live": "",
+    "Tecnologias": [
+      {
+        "nombre": "DiReact",
+        "color": "#5CCFEE"
+      },
+      {
+        "nombre": "DiSass",
+        "color": "#D25191"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "Titulo": "Estudio de belleza",
+    "Descripcion": "Trabajo profesional donde utlicé ReactJS y SASS para desarrollar el sitio web de un estudio de belleza.",
+    "Github": "",
+    "Live": "",
+    "Tecnologias": [
+      {
+        "nombre": "DiReact",
+        "color": "#5CCFEE"
+      },
+      {
+        "nombre": "DiSass",
+        "color": "#D25191"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "Titulo": "Sunnyside Website",
+    "Descripcion": "Desafío de diseño del sitio web FrontendMentor. Hice uso de CSS Grid, CSS Flexbox y de responsive design. Además de Javascript para la interacción. Desarrollé el frontend desde cero basándome en prototipos creados en Figma.",
+    "Github": "",
+    "Live": "",
+    "Tecnologias": [
+      {
+        "nombre": "DiHtml5",
+        "color": "#D45721"
+      },
+      {
+        "nombre": "DiCss3",
+        "color": "#5CCFEE"
+      },
+      {
+        "nombre": "DiJavascript1",
+        "color": "#E6A128"
+      }
+    ]
+  }
+]
