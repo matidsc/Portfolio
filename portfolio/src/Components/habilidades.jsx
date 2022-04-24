@@ -9,7 +9,7 @@ const Habilidades = () => {
         <SectionWrapper titulo="Tecnologias" class='content'>
             
             {skill.map((skill, index) =>
-
+ 
             <Skill color={skill.color} icono={skill.icono} key={index} nombre={skill.nombre} descripcion={skill.descipcion} />
 
         )} 

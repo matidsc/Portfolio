@@ -8,6 +8,8 @@ function HeroSection() {
         <div className='wrapper'>
 
             <div className='heroWrapper'>
+            <img src={heroImage} className='heroImage' />
+
                 <h1>
                     Hola,<br/> soy Matías
                 </h1>
@@ -18,9 +20,8 @@ function HeroSection() {
                 <button>
                     Contactame
                 </button>
-                <img src={heroImage} className='heroImage' />
                 
-               <a href='#tecnologias'><MdKeyboardArrowDown size='32'color='white' className='arrow'/></a> 
+               <a className='arrow' href='#tecnologias'><MdKeyboardArrowDown size='32'color='white' /></a> 
 
             </div>
         </div>

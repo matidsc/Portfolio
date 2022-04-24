@@ -11,4 +11,5 @@ body{
 button{
     cursor: pointer;
     transition: all 0.5s;
+    -webkit-tap-highlight-color:transparent
 }

@@ -13,12 +13,19 @@
 	row-gap: 40px;
 	column-gap: 40px;
 	transition: 0.3s all;
-	width: 100%;
+	width: 15%;
 	&:hover {
 		height: 101%;
 		background-color: #373f47;
 	}
 	h3 {
 		font-weight: 300;
+	}
+}
+@media screen and(max-width:768px){
+
+	.habilidad{
+		width: 45%;
+		min-width: 0;
 	}
 }
