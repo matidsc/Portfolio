@@ -1,5 +1,5 @@
-@keyframes animacionxd {
-	100% {
+@keyframes animacion {
+	to {
 		width: 30px;
 		box-shadow: 0 0 25px #db6c3c;
 	}
@@ -13,23 +13,18 @@
     height: max-content;
 }
 .contentWrapper {
-        /* grid-auto-rows: max-content; */
 		display: flex;
 		width: 100%;
 		flex-direction: column;
-		/* min-height: 90%; */
 		height: 100%;
 		align-items: center;
-		/* justify-items: center; */
-		/* justify-content: center; */
 		margin: 40px 0;
 	.titulo {
 		line-height : 100%;
 		grid-row: 1/2;
 		text-align: center;
 		color: rgb(187, 185, 185);
-		height: 20vh;
-		max-height: 20vh;
+		height: 15vh;
 		&::before {
 			background-color: #db6c3c;
 			display: inline-block;
@@ -37,7 +32,7 @@
 			position: relative;
 			width: 20px;
 			height: 5px;
-			animation: animacionxd 1s infinite alternate backwards;
+			animation: animacion 1s infinite alternate backwards;
 			top: 1.2em;
 			left: 0;
 		}
@@ -48,7 +43,7 @@
 			position: relative;
 			width: 20px;
 			height: 5px;
-			animation: animacionxd 1s infinite alternate backwards;
+			animation: animacion 1s infinite alternate backwards;
 			top: -1.2em;
 			right: 0;
 		}
@@ -92,15 +87,28 @@
 @media screen and(max-width:900px) {
 	
 	.content{
-		width: 90%;}
+		width: 90%;
+	}
 }
 @media screen and(max-width:768px){
 	
 	.content{
-		width: 90%;
 		display: flex;
 		flex: 1 1 auto;
 		flex-wrap: wrap;
-
+	}
+	.projectCards{
+		width: 90%;
+	}
+	.aboutCards{
+		align-content: center;
+		gap: 1%;
+		-webkit-user-select: none;
+		width: 90%;
+		height: 110vh;
+		display: flex;
+		flex-direction: row;
+		flex: 1 1 auto;
+		flex-wrap: wrap;
 	}
 }

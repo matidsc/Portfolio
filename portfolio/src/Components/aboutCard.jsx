@@ -8,7 +8,7 @@ const AboutCard=(props)=>{
         <div className='cardWrapper'>
             
             <h1 className='year'>{props.year}</h1>
-
+            
             <div className='info'>
                 <h1>{props.titulo}</h1>
                 <p>{props.infoContent}</p>

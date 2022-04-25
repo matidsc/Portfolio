@@ -6,7 +6,7 @@ const Habilidades = () => {
     
     return (
 
-        <SectionWrapper titulo="Tecnologias" class='content'>
+        <SectionWrapper titulo="Tecnologías" class='content'>
             
             {skill.map((skill, index) =>
  

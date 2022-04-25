@@ -12,7 +12,7 @@ const About =()=>{
         {cards.map((card,index)=>
             <AboutCard key={index} titulo={card.Nombre} year={card.Year} infoContent={card.infoContent}/>
        )}
-          <div className='hola'>
+          <div className='cvDownload'>
             <h1>Descarga mi currículum</h1>
             <HiDownload size='40px' color='white'/>
         </div> 
