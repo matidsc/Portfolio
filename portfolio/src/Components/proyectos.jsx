@@ -1,6 +1,5 @@
 import React from "react";
 import SectionWrapper from "../containers/sectionWrapper";
-import "../Styles/Home.scss";
 import Proyect from "./proyect";
 import proyectos from "../JSON/proyects.json";
 const Proyectos = () => {
