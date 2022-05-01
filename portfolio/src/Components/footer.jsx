@@ -8,13 +8,15 @@ const Footer = () => {
                     <h1>
                         Trabajemos juntos 
                     </h1>
-                <form className='frmFooter'>
+                <form className='frmFooter'action="https://formsubmit.co/matidsc.dev@gmail.com" method="POST">
                     <h2>Contactame</h2>
-                    <input placeholder='Nombre' type='text'/>
-                    <input placeholder='Motivo del contacto'type='text'/>
-                    <input placeholder='Correo electrónico'type='email'/>
-                    <input placeholder='Proyecto o empresa'type='text'/>
-                    <textarea cols='40' rows='10' placeholder='Mensaje'type='text'/>
+                    <input type="hidden" name="_captcha" value="false"/>
+                    <input placeholder='Nombre' type='text'name='Nombre' required/>
+                    <input placeholder='Motivo del contacto'type='text' name='Motivo'/>
+                    <input type="hidden" name="_subject" value="Nuevo email de portafolio"/>
+                    <input placeholder='Correo electrónico'type='email'name='Email' required/>
+                    <input placeholder='Proyecto o empresa'type='text'name='Empresa o proyecto'/>
+                    <textarea cols='40' rows='10' placeholder='Mensaje'type='text'name='Mensaje'required/>
                     <input type='submit' value='Enviar'/>
                 </form>
                 <small>Portafolio creado con ReactJS</small>

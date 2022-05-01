@@ -17,16 +17,15 @@ const Proyect = ({
   imagen,
   tecnologias,
 }) => {
-  /*<img src={require("../img/Servicios/" + imagen[0]).default}></img>*/
+  
   return (
     <div className="proyectWrapper">
-      <img src={img} />
+      <img src={imagen}/>
 
       <h1>{titulo}</h1>
 
       <p>{descripcion}</p>
       <div className="proyect_tech">
-
         {tecnologias.map((tecnologia, index) => {
           return (
             <Icon
@@ -40,16 +39,30 @@ const Proyect = ({
       </div>
 
       <div className="buttonWrapper">
-        <a href={github} className="btn">
+        <a
+          href={github}
+          target="_blank"
+          className="btn"
+          style={{ alignSelf: live == "undefined" ? "center" : null }}
+        >
           <button>
             <DevIcons.DiGithubBadge size="40" className="buttonIcon" />
 
             <span>Ir al repositorio</span>
           </button>
         </a>
-        <a href={live}>
-          <button>Ir a sitio </button>
-        </a>
+
+        {typeof live !== "undefined" && live !== "" ? (
+          <a href={live}>
+            <button>Ir a sitio </button>
+          </a>
+        ) : (
+          typeof live !== "undefined" && (
+            <a>
+              <button disabled>Sitio en construccion</button>
+            </a>
+          )
+        )}
       </div>
     </div>
   );

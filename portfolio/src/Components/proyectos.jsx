@@ -8,7 +8,7 @@ const Proyectos = () => {
       
       {proyectos.map((proyecto, index) => {
        
-        return <Proyect key={index} tecnologias={proyecto.Tecnologias} titulo={proyecto.Titulo} descripcion={proyecto.Descripcion} github={proyecto.github} live={proyecto.live} 
+        return <Proyect key={index} tecnologias={proyecto.Tecnologias} titulo={proyecto.Titulo} descripcion={proyecto.Descripcion} github={proyecto.Github} imagen={proyecto.imagen} live={proyecto.Live} 
         
         />})}
     </SectionWrapper>
