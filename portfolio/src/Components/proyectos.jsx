@@ -4,7 +4,7 @@ import Proyect from "./proyect";
 import proyectos from "../JSON/proyects.json";
 const Proyectos = () => {
   return (
-    <SectionWrapper class="projectCards" titulo="Proyectos">
+    <SectionWrapper class="projectCards" titulo="Proyectos" id='proyectos'>
       
       {proyectos.map((proyecto, index) => {
        

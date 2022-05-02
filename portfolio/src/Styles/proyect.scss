@@ -76,10 +76,10 @@ $text-color: #212a33;
     }
   }
 }
-@media screen and(max-width:768px) {
+@media screen and(max-width:900px) {
   .proyectWrapper {
-    height: 90vh;
-    grid-template-rows: 30% 10% 25% 5% 10%;
+    height: 100vh;
+    grid-template-rows: 35% 10% 20% 5% 10%;
     grid-template-columns: unset;
     align-items: stretch;
     align-content: space-around;
@@ -102,10 +102,10 @@ $text-color: #212a33;
       }
       a{
         width: 48%;
-        height: 55%;
+        height: 5vh;
 
         button {
-          font-size: 0.7em;
+          font-size: 1em;
             width: 100%;
             height: 100%;
           }
@@ -119,6 +119,21 @@ $text-color: #212a33;
     p {
       grid-area: 3/1/4/3;
       font-size: 1em;
+    }
+  }
+}
+@media screen and(max-width:500px){
+  .proyectWrapper{
+    grid-template-rows: 30% 10% 25% 5% 10%;
+    .buttonWrapper {
+    
+      a{
+        button {
+          font-size: 0.7em;
+           
+          }
+      }
+      
     }
   }
 }

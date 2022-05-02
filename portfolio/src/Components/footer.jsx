@@ -2,7 +2,7 @@ import React from 'react'
 import '../Styles/footer.scss'
 const Footer = () => {
     return (
-        <div id='contacto'className='footerWrapper'>
+        <div id='contacto'className='footerWrapper' >
 
             <footer>
                     <h1>

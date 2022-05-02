@@ -4,7 +4,7 @@ const SectionWrapper = (props) => {
 
     return (
         
-        <div className='sectionWrapper'>
+        <div className='sectionWrapper' id={props.id}>
                          
             <div className='contentWrapper'>
                 <h1 className='titulo'>{props.titulo}</h1>

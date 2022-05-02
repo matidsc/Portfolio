@@ -5,7 +5,7 @@ import { MdKeyboardArrowDown } from 'react-icons/md'
 function HeroSection() {
 
     return (
-        <div className='wrapper'>
+        <div className='wrapper' id='heroSection'>
 
             <div className='heroWrapper'>
             <img src={heroImage} className='heroImage' />

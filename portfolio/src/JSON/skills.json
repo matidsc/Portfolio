@@ -30,12 +30,21 @@
         
        
     },
-    {
-        "nombre":"Java",
-        "icono":"DiJava",
-        "color":"#E12329"
-
-
+    
+     {
+        "nombre":"Scrum",
+        "icono":"DiScrum",
+        "color":"#1792AD"
+     },
+     {
+      "nombre":"MySQL",
+      "icono":"DiMysql",
+      "color":"#CF8921"
+   },   
+     {
+        "nombre":"Git",
+        "icono":"DiGit",
+        "color":"#E84E31"
      },
      {
       "nombre":"vb.NET",
@@ -43,21 +52,13 @@
       "color":"#AB47BC"
       
    },
-     {
-        "nombre":"MySQL",
-        "icono":"DiMysql",
-        "color":"#CF8921"
-     },
-     {
-        "nombre":"Git",
-        "icono":"DiGit",
-        "color":"#E84E31"
-     },
-     {
-        "nombre":"Scrum",
-        "icono":"DiScrum",
-        "color":"#1792AD"
-     }
+   {
+       "nombre":"Java",
+       "icono":"DiJava",
+       "color":"#E12329"
+
+
+    }
     
 
  ]

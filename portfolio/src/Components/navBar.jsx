@@ -10,15 +10,15 @@ const NavBar = () => {
     <nav>
       <div className="content">
         <FaCode size="40" color="rgb(187, 185, 185)" />
-        <ul style={{display:showNavBar?"flex":"none"}}>
+        <ul className={showNavBar?"navShow":"navHidden"}>
           <li>
-            <a href="">Inicio</a>
+            <a href="#heroSection">Inicio</a>
           </li>
           <li>
             <a href="#tecnologias">Tecnologías</a>
           </li>
           <li>
-            <a href="">Proyectos</a>
+            <a href="#proyectos">Proyectos</a>
           </li>
           <li>
             <a href="#about">Sobre mí</a>
@@ -28,7 +28,10 @@ const NavBar = () => {
           </li>
         </ul>
         <div className="navContact">
-          <a>
+          <a
+            href="https://github.com/matidsc"
+            target="_blank"
+          >
             <FaGithub size="40" color="rgb(187, 185, 185)" />
           </a>
           <a

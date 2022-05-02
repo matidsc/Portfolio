@@ -57,20 +57,27 @@ nav {
 				height: 40px;
 				width: 40px;
 			}
-			
-			ul{
+			.navHidden{
+				display: none;
+			}
+			.navShow{
 				display: flex;
 				flex-direction: column;
 				z-index: 2;
 				height: 90vh;
 				width: 100%;
+				padding: 20% 0;
 				left: 0%;
 				justify-content: space-around;
 				align-items: center;
 				position: absolute;
 				top: 10vh;
 				background-color: var(--main-bg-color);
+			a{
+				font-size: 1.5em;
 			}
+			}
+
 		}
 	}
 
