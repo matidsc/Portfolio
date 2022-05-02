@@ -52,6 +52,11 @@
         "nombre":"Git",
         "icono":"DiGit",
         "color":"#E84E31"
+     },
+     {
+        "nombre":"Scrum",
+        "icono":"DiScrum",
+        "color":"#1792AD"
      }
     
 

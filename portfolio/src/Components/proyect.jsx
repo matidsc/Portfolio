@@ -43,7 +43,7 @@ const Proyect = ({
           href={github}
           target="_blank"
           className="btn"
-          style={{ alignSelf: live == "undefined" ? "center" : null }}
+          style={{ alignSelf: live === "undefined" ? "center" : null }}
         >
           <button>
             <DevIcons.DiGithubBadge size="40" className="buttonIcon" />
