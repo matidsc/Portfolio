@@ -15,7 +15,7 @@ const NavBar = () => {
             <a href="#heroSection">Inicio</a>
           </li>
           <li>
-            <a href="#tecnologias">Tecnologías</a>
+            <a href="#tecnologias">Habilidades</a>
           </li>
           <li>
             <a href="#proyectos">Proyectos</a>
