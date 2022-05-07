@@ -17,9 +17,10 @@ function HeroSection() {
                 <h2>
                     Desarrollador Front-end
                 </h2>
-                <button>
+                <a href='#contacto'> <button>
                     Contactame
-                </button>
+                </button></a>
+               
                 
                <a className='arrow' href='#tecnologias'><MdKeyboardArrowDown size='32'color='white' /></a> 
 
