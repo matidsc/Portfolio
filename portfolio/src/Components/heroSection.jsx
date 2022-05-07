@@ -17,7 +17,7 @@ function HeroSection() {
                 <h2>
                     Desarrollador Front-end
                 </h2>
-                <a href='#contacto'> <button>
+                <a className='contactameBtn' href='#contacto'> <button>
                     Contactame
                 </button></a>
                
