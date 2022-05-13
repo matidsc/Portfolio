@@ -1,7 +1,8 @@
 import React from "react";
 import "../Styles/proyect.scss";
-import img from "../Images/hola.png";
 import * as DevIcons from "react-icons/di";
+import i18next from '../i18n'
+import { t } from "i18next";
 
 const Icon = ({ iconName, size, color }) => {
   const icon = React.createElement(DevIcons[iconName]);
@@ -48,18 +49,18 @@ const Proyect = ({
           <button>
             <DevIcons.DiGithubBadge size="40" className="buttonIcon" />
 
-            <span>Ir al repositorio</span>
+            <span>{i18next.t('projects_go_to_repository')}</span>
           </button>
         </a>
 
         {typeof live !== "undefined" && live !== "" ? (
-          <a href={live}>
-            <button>Ir a sitio </button>
+          <a href={live} target='_blank'>
+            <button>{i18next.t('projects_go_to_site')}</button>
           </a>
         ) : (
           typeof live !== "undefined" && (
             <a>
-              <button disabled>Sitio en construccion</button>
+              <button disabled>{t('projects_site_in_construction')}</button>
             </a>
           )
         )}

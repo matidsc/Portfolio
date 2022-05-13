@@ -7,7 +7,9 @@ import Proyectos from './Components/proyectos'
 import About from './Components/about'
 
 function App() {
+  
   return (
+    
     <div className="App">
       <NavBar/>
       <HeroSection/> 

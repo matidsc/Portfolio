@@ -2,8 +2,10 @@ import React from 'react'
 import '../Styles/heroSection.scss'
 import heroImage from '../Images/heroImage.svg'
 import { MdKeyboardArrowDown } from 'react-icons/md'
-function HeroSection() {
+import i18next from '../i18n'
 
+function HeroSection() {
+console.log(i18next.language)
     return (
         <div className='wrapper' id='heroSection'>
 
@@ -11,14 +13,15 @@ function HeroSection() {
             <img src={heroImage} className='heroImage' />
 
                 <h1>
-                    Hola,<br/> soy Matías
+                    {i18next.t("hero_title")}
                 </h1>
 
                 <h2>
-                    Desarrollador Front-end
+                    {i18next.t('hero_sub')
+}
                 </h2>
                 <a className='contactameBtn' href='#contacto'> <button>
-                    Contactame
+                    {i18next.t('hero_contactMe')}
                 </button></a>
                
                 

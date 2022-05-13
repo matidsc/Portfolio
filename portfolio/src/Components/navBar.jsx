@@ -4,6 +4,8 @@ import { FaCode } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { CgMenuRight } from "react-icons/cg";
+import i18next from '../i18n'
+
 const NavBar = () => {
   const [showNavBar,setShowNavBar]=useState(false)
   return (
@@ -12,19 +14,19 @@ const NavBar = () => {
         <FaCode size="40" color="rgb(187, 185, 185)" />
         <ul className={showNavBar?"navShow":"navHidden"}>
           <li>
-            <a href="#heroSection">Inicio</a>
+            <a href="#heroSection">{i18next.t('nav_home')}</a>
           </li>
           <li>
-            <a href="#tecnologias">Habilidades</a>
+            <a href="#tecnologias">{i18next.t('nav_skills')}</a>
           </li>
           <li>
-            <a href="#proyectos">Proyectos</a>
+            <a href="#proyectos">{i18next.t('nav_projects')}</a>
           </li>
           <li>
-            <a href="#about">Sobre mí</a>
+            <a href="#about">{i18next.t('nav_about')}</a>
           </li>
           <li>
-            <a href="#contacto">Contacto</a>
+            <a href="#contacto">{i18next.t('nav_contact')}</a>
           </li>
         </ul>
         <div className="navContact">
