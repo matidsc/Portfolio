@@ -1,20 +1,18 @@
 import React from "react";
 import "../Styles/languageSwitch.scss";
 import { useTranslation } from "react-i18next";
-import i18next from "i18next";
-
 const LanguageSwitch = () => {
-    const { t } = useTranslation();
+  const { t, i18n } = useTranslation("global");
 
-  const handleClick = (lang) => {
-    i18next.changeLanguage(lang);
-  };
+    const changeLanguage = lng => {
+      i18n.changeLanguage(lng);
+    }
+  
   return (
     <div className="langWrapper">
-      LanguageSwitch
-      <button onClick={() => handleClick("en")}>EN</button>
-      <button onClick={() => handleClick("es")}>ES</button>
-      <h3>{t('title.1')}</h3>
+      <span>{t('language_switch')}</span>
+      <button onClick={() => changeLanguage("es")}>ES</button>
+        <button onClick={() => changeLanguage("en")}>EN</button>
 
           </div>
   );

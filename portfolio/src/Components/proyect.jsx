@@ -1,8 +1,7 @@
 import React from "react";
 import "../Styles/proyect.scss";
 import * as DevIcons from "react-icons/di";
-import i18next from '../i18n'
-import { t } from "i18next";
+import { useTranslation } from 'react-i18next';
 
 const Icon = ({ iconName, size, color }) => {
   const icon = React.createElement(DevIcons[iconName]);
@@ -18,7 +17,8 @@ const Proyect = ({
   imagen,
   tecnologias,
 }) => {
-  
+  const[t,i18n]=useTranslation("global")
+
   return (
     <div className="proyectWrapper">
       <img src={imagen}/>
@@ -49,18 +49,18 @@ const Proyect = ({
           <button>
             <DevIcons.DiGithubBadge size="40" className="buttonIcon" />
 
-            <span>{i18next.t('projects_go_to_repository')}</span>
+            <span>{t('projects.projects_go_to_repository')}</span>
           </button>
         </a>
 
         {typeof live !== "undefined" && live !== "" ? (
           <a href={live} target='_blank'>
-            <button>{i18next.t('projects_go_to_site')}</button>
+            <button>{t('projects.projects_go_to_site')}</button>
           </a>
         ) : (
           typeof live !== "undefined" && (
             <a>
-              <button disabled>{t('projects_site_in_construction')}</button>
+              <button disabled>{t('projects.projects_site_in_construction')}</button>
             </a>
           )
         )}

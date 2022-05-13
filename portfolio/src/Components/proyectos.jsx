@@ -1,15 +1,19 @@
 import React from "react";
 import SectionWrapper from "../containers/sectionWrapper";
 import Proyect from "./proyect";
-import proyectos from "../JSON/proyects.json";
-import i18next from '../i18n'
+import projectsES from "../JSON/projectsES.json";
+import projectsEN from '../JSON/projectsEN.json'
+import { useTranslation } from "react-i18next";
 
 const Proyectos = () => {
-  var cur_lang=i18next.language
+  const[t,i18n]=useTranslation("global")
+  console.log()
+let origen=i18n.language==='en'?projectsEN:projectsES
   return (
-    <SectionWrapper class="projectCards" titulo={i18next.t('projects_title')} id='proyectos'>
+    <SectionWrapper class="projectCards" titulo={t('projects.projects_title')} id='proyectos'>
+       
       
-      {proyectos.map((proyecto, index) => {
+      {origen.map((proyecto, index) => {
        
         return <Proyect key={index} tecnologias={proyecto.Tecnologias} titulo={proyecto.Titulo} descripcion={proyecto.Descripcion} github={proyecto.Github} imagen={proyecto.imagen} live={proyecto.Live} 
         

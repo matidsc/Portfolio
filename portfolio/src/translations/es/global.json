@@ -1,0 +1,37 @@
+{"language_switch":"Idioma",
+    "hero": {
+      "hero_sub": "Desarrollador Frontend",
+      "hero_title": "Hola, soy Matías",
+      "hero_contactMe": "Contact me"
+    },
+    "nav": {
+      "nav_home": "Inicio",
+      "nav_skills": "Habilidades",
+      "nav_projects": "Proyectos",
+      "nav_about": "Sobre mí",
+      "nav_contact": "Contacto"
+    },
+    "skills": {
+      "skills_title": "Habilidades"
+    },
+    "projects": {
+      "projects_title": "Proyectos",
+      "projects_go_to_site":"Ir al sitio",
+      "projects_go_to_repository":"Ir al repositorio",
+      "projects_site_in_construction":"Sitio en construcción"
+    },
+    "about": {
+        "about_title":"Sobre mi",
+        "about_cv":"Ver mi currículum online"
+    },
+    "footer": {
+        "footer_title":"Trabajemos juntos",
+        "footer_contact_me":"Contactame",
+        "footer_name":"Nombre",
+        "footer_reason":"Motivo del contacto",
+        "footer_email":"Correo electrónico",
+        "footer_project":"Proyecto o empresa",
+        "footer_message":"Mensaje",
+        "footer_send":"Enviar",
+        "footer_bottom_text":"Portafolio creado con ReactJS"    }
+  }

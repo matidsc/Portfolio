@@ -22,7 +22,7 @@ html{
 }
 
 :root{
-
+  --darker-bg-color:#171d24;
   --main-bg-color:#16202A;
   --sec-bg-color:rgba(255, 255, 255, 0.1);
   --thrd-bg-color:#212a33;

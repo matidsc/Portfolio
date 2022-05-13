@@ -9,7 +9,7 @@ $text-color: #212a33;
   column-gap: 5%;
   padding: 5% 7.5%;
   grid-template-rows: 30% 40% 10%;
-  background-color: darken($text-color, 5);
+  background-color: var(--darker-bg-color);
   align-items: center;
   overflow: hidden;
   img {

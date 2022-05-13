@@ -2,10 +2,11 @@ import React from 'react'
 import '../Styles/heroSection.scss'
 import heroImage from '../Images/heroImage.svg'
 import { MdKeyboardArrowDown } from 'react-icons/md'
-import i18next from '../i18n'
+import { useTranslation } from 'react-i18next';
 
 function HeroSection() {
-console.log(i18next.language)
+    const[t,i18n]=useTranslation("global")
+    
     return (
         <div className='wrapper' id='heroSection'>
 
@@ -13,15 +14,15 @@ console.log(i18next.language)
             <img src={heroImage} className='heroImage' />
 
                 <h1>
-                    {i18next.t("hero_title")}
+                    {t("hero.hero_title")}
                 </h1>
 
                 <h2>
-                    {i18next.t('hero_sub')
+                    {t('hero.hero_sub')
 }
                 </h2>
                 <a className='contactameBtn' href='#contacto'> <button>
-                    {i18next.t('hero_contactMe')}
+                    {t('hero.hero_contactMe')}
                 </button></a>
                
                 

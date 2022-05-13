@@ -2,13 +2,14 @@ import React from 'react'
 import Skill from './skill'
 import skill from '../JSON/skills.json'
 import SectionWrapper from '../containers/sectionWrapper'
-import i18next from '../i18n'
+import { useTranslation } from "react-i18next";
 
 const Habilidades = () => {
-    
+    const[t,i18n]=useTranslation("global")
+
     return (
 
-        <SectionWrapper titulo={i18next.t('skills_title')} class='content' id='tecnologias'>
+        <SectionWrapper titulo={t('skills.skills_title')} class='content' id='habilidades'>
             
             {skill.map((skill, index) =>
  

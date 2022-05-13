@@ -5,7 +5,7 @@ import Habilidades from './Components/habilidades';
 import Footer from './Components/footer';
 import Proyectos from './Components/proyectos'
 import About from './Components/about'
-
+import LanguageSwitch from './Components/languageSwitch';
 function App() {
   
   return (
@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <HeroSection/> 
+      <LanguageSwitch/>
       <Habilidades/>
       <Proyectos/>
       <About/>

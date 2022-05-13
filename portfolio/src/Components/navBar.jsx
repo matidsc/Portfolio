@@ -4,29 +4,29 @@ import { FaCode } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { CgMenuRight } from "react-icons/cg";
-import i18next from '../i18n'
-
+import { useTranslation } from "react-i18next";
 const NavBar = () => {
   const [showNavBar,setShowNavBar]=useState(false)
+  const[t,i18n]=useTranslation("global")
   return (
     <nav>
       <div className="content">
         <FaCode size="40" color="rgb(187, 185, 185)" />
         <ul className={showNavBar?"navShow":"navHidden"}>
           <li>
-            <a href="#heroSection">{i18next.t('nav_home')}</a>
+            <a href="#heroSection">{t("nav.nav_home")}</a>
           </li>
           <li>
-            <a href="#tecnologias">{i18next.t('nav_skills')}</a>
+            <a href="#habilidades">{t('nav.nav_skills')}</a>
           </li>
           <li>
-            <a href="#proyectos">{i18next.t('nav_projects')}</a>
+            <a href="#proyectos">{t('nav.nav_projects')}</a>
           </li>
           <li>
-            <a href="#about">{i18next.t('nav_about')}</a>
+            <a href="#about">{t('nav.nav_about')}</a>
           </li>
           <li>
-            <a href="#contacto">{i18next.t('nav_contact')}</a>
+            <a href="#contacto">{t('nav.nav_contact')}</a>
           </li>
         </ul>
         <div className="navContact">

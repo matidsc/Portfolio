@@ -1,0 +1,38 @@
+{"language_switch":"Language",
+  "hero": {
+    "hero_sub": "Frontend Developer",
+    "hero_title": "Hi, I'm Matias",
+    "hero_contactMe": "Contact me"
+  },
+  "nav": {
+    "nav_home": "Home",
+    "nav_skills": "Skills",
+    "nav_projects": "Projects",
+    "nav_about": "About me",
+    "nav_contact": "Contact"
+  },
+  "skills": {
+    "skills_title": "Skills"
+  },
+  "projects": {
+    "projects_title": "Projects",
+    "projects_go_to_site": "Go to site",
+    "projects_go_to_repository": "Go to repository",
+    "projects_site_in_construction": "Site in construction"
+  },
+  "about": {
+    "about_title": "About me",
+    "about_cv": "View my CV online"
+  },
+  "footer": {
+    "footer_title": "Let's work together",
+    "footer_contact_me": "Contact me",
+    "footer_name": "Name",
+    "footer_reason": "Reason for contacting",
+    "footer_email": "Email",
+    "footer_project": "Project or company",
+    "footer_message": "Message",
+    "footer_send": "Send",
+    "footer_bottom_text": "Portfolio created with ReactJS"
+  }
+}
