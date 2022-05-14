@@ -10,10 +10,11 @@ const About =()=>{
     return(
         <div id='about' className='about'>
        <SectionWrapper class='aboutCards' titulo={t('about.about_title')}>
-              
+        <div id='timeline'>
         {cards.map((card,index)=>
             <AboutCard key={index} titulo={card.Nombre} year={card.Year} infoContent={card.infoContent}/>
        )}
+       </div>
        <a href="https://drive.google.com/file/d/1A5MCx2kLznx-r_b_IHvLI4dpYUN-3GQg/view?usp=sharing" target='_blank'>
           <div className='cvDownload'>
             <span>{t('about.about_cv')}</span>

@@ -2,7 +2,7 @@
     "hero": {
       "hero_sub": "Desarrollador Frontend",
       "hero_title": "Hola, soy Matías",
-      "hero_contactMe": "Contact me"
+      "hero_contactMe": "Contactame"
     },
     "nav": {
       "nav_home": "Inicio",
@@ -21,7 +21,7 @@
       "projects_site_in_construction":"Sitio en construcción"
     },
     "about": {
-        "about_title":"Sobre mi",
+        "about_title":"Sobre mí",
         "about_cv":"Ver mi currículum online"
     },
     "footer": {

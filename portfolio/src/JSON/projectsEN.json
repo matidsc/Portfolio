@@ -59,7 +59,7 @@
   {
     "id": 4,
     "Titulo": "Sunnyside Website",
-    "Descripcion": "Design challenge fron the FrontendMentor site. I used CSS Grid, CSS FLexbox and repsonsive design. Apart from using JavaScript for user interaction.",
+    "Descripcion": "Design challenge from the FrontendMentor site. I used CSS Grid, CSS FLexbox and repsonsive design. Apart from using JavaScript for user interaction.",
     "Github": "https://github.com/matidsc/sunnysideWebsite",
     "Live": "https://matidscsunnyside.netlify.app",
     "Tecnologias": [

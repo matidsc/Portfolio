@@ -9,12 +9,11 @@
     margin: auto;
     padding: 30px;
     display: grid;
-    grid-template-rows: 40% 55% 5%;
+    grid-template-rows: 40% 57% 3%;
     grid-template-columns: 50% 50%;
     justify-content: center;
     align-items: center;
     justify-items: center;
-    row-gap: 10px;
     h1 {
       color: var(--text-unfocused-color);
       font-size: 90px;
@@ -95,6 +94,17 @@ input {
   &:focus {
     outline: 0;
     box-shadow: 0 0 15px #db6c3c;
+  }
+}
+@media screen and (max-width: 900px) {
+  .footerWrapper {
+    footer {
+      padding: 0;
+      .frmFooter {
+       
+        width: 80%;
+      }
+    }
   }
 }
 @media screen and (max-width: 768px) {
