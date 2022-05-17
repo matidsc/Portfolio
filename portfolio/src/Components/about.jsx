@@ -1,17 +1,20 @@
 import React from 'react';
 import SectionWrapper from '../containers/sectionWrapper';
 import AboutCard from './aboutCard';
-import cards from '../JSON/about.json'
+import aboutES from '../JSON/aboutES.json'
+import aboutEN from '../JSON/aboutEN.json'
 import {HiDownload} from 'react-icons/hi'
 import { useTranslation } from 'react-i18next';
 const About =()=>{
+    
     const[t,i18n]=useTranslation("global")
+    let origen=i18n.language==='en'?aboutEN:aboutES
 
     return(
         <div id='about' className='about'>
        <SectionWrapper class='aboutCards' titulo={t('about.about_title')}>
         <div id='timeline'>
-        {cards.map((card,index)=>
+        {origen.map((card,index)=>
             <AboutCard key={index} titulo={card.Nombre} year={card.Year} infoContent={card.infoContent}/>
        )}
        </div>

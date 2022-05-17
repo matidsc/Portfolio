@@ -1,24 +1,21 @@
-.langWrapper{
-        background-color: var(--main-orange-color);
-        position: fixed;
-        top: 50%;
-        right: 0;
-        transform: translateY(-50%);
-        min-width: 6vw;
-        height: 6vw;
-        align-items: center;
-        justify-items: center;
-        display: grid;
-        grid-template-columns: repeat(2,50%);
-        grid-template-rows: repeat(2,50%);
-        span{
-                padding: 1%;
-                color: white;
-                grid-column: 1/3;
+.langWrapper {
+        
+ 
+  button {
+    border: none;
+    background-color: transparent;
+    color: black;
+        svg{
+                margin: 10px;
+                height: 30px;
+                width: 30px;
         }
-        button{
-                width: 100%;
-                height: 100%;
-                border: none;
-        }
+ 
+  }
+}
+@media screen and(max-width:768px) {
+  .langWrapper {
+    right: 20px;
+    bottom: 20px;
+  }
 }

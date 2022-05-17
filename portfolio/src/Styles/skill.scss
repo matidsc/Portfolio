@@ -16,7 +16,7 @@
 	width: 15%;
 	&:hover {
 		height: 101%;
-		background-color: #373f47;
+		background-color: lighten(#212a33,2);
 	}
 	h3 {
 		font-weight: 300;

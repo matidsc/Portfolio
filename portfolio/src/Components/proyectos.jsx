@@ -7,7 +7,6 @@ import { useTranslation } from "react-i18next";
 
 const Proyectos = () => {
   const[t,i18n]=useTranslation("global")
-  console.log()
 let origen=i18n.language==='en'?projectsEN:projectsES
   return (
     <SectionWrapper class="projectCards" titulo={t('projects.projects_title')} id='proyectos'>

@@ -5,6 +5,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { CgMenuRight } from "react-icons/cg";
 import { useTranslation } from "react-i18next";
+import {RiPagesLine } from 'react-icons/ri'
+import LanguageSwitch from "./languageSwitch";
 const NavBar = () => {
   const [showNavBar,setShowNavBar]=useState(false)
   const[t,i18n]=useTranslation("global")
@@ -31,17 +33,27 @@ const NavBar = () => {
         </ul>
         <div className="navContact">
           <a
+            title="Github"
             href="https://github.com/matidsc"
             target="_blank"
           >
-            <FaGithub size="40" color="rgb(187, 185, 185)" />
+            <FaGithub size="30" color="rgb(187, 185, 185)" />
           </a>
           <a
+            title="Linkedin"
             href="https://www.linkedin.com/in/MatiasDaSilva-178625212"
             target="_blank"
           >
-            <FaLinkedin size="40" color="rgb(187, 185, 185)" />
+            <FaLinkedin size="30" color="rgb(187, 185, 185)" />
           </a>
+          <a
+            title="Resume"
+            href="https://drive.google.com/file/d/1A5MCx2kLznx-r_b_IHvLI4dpYUN-3GQg/view?usp=sharing"
+            target="_blank"
+          >
+            <RiPagesLine size="30" color="rgb(187, 185, 185)" />
+          </a>
+          <LanguageSwitch/>
         </div>
         <span onClick={()=>setShowNavBar(!showNavBar)} className="hamburgerWrapper">
       

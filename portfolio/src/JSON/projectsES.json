@@ -21,7 +21,7 @@
     "Titulo": "E-commerce",
     "Descripcion": "Proyecto final donde utlicé ReactJS, SASS y Firebase para crear el frontend de un e-commerce con carrito de compras. ",
     "Github": "https://github.com/matidsc/TechUY_Matias_daSilva/tree/Firebase",
-    "Live": "",
+    "Live": "https://matidsc.github.io/TechUY_Matias_daSilva/",
     "Tecnologias": [
       {
         "nombre": "DiReact",

@@ -1,4 +1,3 @@
-import about from '../JSON/about.json'
 import React from 'react';
 import '../Styles/aboutCard.scss'
 const AboutCard=(props)=>{

@@ -26,7 +26,7 @@ function HeroSection() {
                 </button></a>
                
                 
-               <a className='arrow' href='#tecnologias'><MdKeyboardArrowDown size='32'color='white' /></a> 
+               <a className='arrow' href='#habilidades'><MdKeyboardArrowDown size='32'color='white' /></a> 
 
             </div>
         </div>
