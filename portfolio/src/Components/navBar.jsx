@@ -48,7 +48,7 @@ const NavBar = () => {
           </a>
           <a
             title="Resume"
-            href="https://drive.google.com/file/d/1A5MCx2kLznx-r_b_IHvLI4dpYUN-3GQg/view?usp=sharing"
+            href="https://drive.google.com/file/d/1L_gsojEo-hMEZ6mR_nXr2CxmbzIk-4E8/view?usp=sharing"
             target="_blank"
           >
             <RiPagesLine size="30" color="rgb(187, 185, 185)" />
