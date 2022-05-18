@@ -32,7 +32,7 @@
   display: flex;
   grid-row: 1/3;
   grid-column: 2/3;
-  width: 65%;
+  width: 80%;
   align-items: flex-start;
   justify-content: center;
   row-gap: 25px;
@@ -96,18 +96,18 @@ input {
     box-shadow: 0 0 15px #db6c3c;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .footerWrapper {
     footer {
-      padding: 0;
+     
       .frmFooter {
        
-        width: 80%;
+        width: 100%;
       }
     }
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .footerWrapper {
     footer {
 		width: 90%;
@@ -115,15 +115,15 @@ input {
 		display: flex;
 		height: 120vh;
 		flex-direction: column;
-		justify-content: space-around;
+		justify-content: space-evenly;
 		h1{
-			font-size: 2em;
+			font-size: 2.7em;
 		}
 		.frmFooter {
 			border-radius: 20px;
 			display: flex;
 			max-height: 100%;
-			width: 100%;
+			width: 80%;
 			height: 90vh;
 			justify-content: space-around;
 
