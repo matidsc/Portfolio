@@ -9,7 +9,7 @@ import {RiPagesLine } from 'react-icons/ri'
 import LanguageSwitch from "./languageSwitch";
 const NavBar = () => {
   const [showNavBar,setShowNavBar]=useState(false)
-  const[t,i18n]=useTranslation("global")
+  const[t]=useTranslation("global")
   return (
     <nav>
       <div className="content">

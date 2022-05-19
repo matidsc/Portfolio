@@ -8,7 +8,6 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "country-flag-icons": "^1.4.26",
-    "flag-icons": "^6.4.2",
     "i18next": "^21.8.2",
     "i18next-browser-languagedetector": "^6.1.4",
     "i18next-http-backend": "^1.4.0",
@@ -18,7 +17,6 @@
     "react-i18next": "^11.16.9",
     "react-icons": "^4.3.1",
     "react-scripts": "^5.0.0",
-    "react-transition-group": "^4.4.2",
     "sass": "^1.49.9",
     "save": "^2.5.0",
     "web-vitals": "^2.1.2"
