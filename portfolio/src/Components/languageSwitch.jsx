@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import Flags from "country-flag-icons/react/3x2";
 
 const LanguageSwitch = () => {
-  const { t, i18n } = useTranslation("global");
+  const {i18n } = useTranslation("global");
   const [buttonSwtich, setbuttonSwtich] = useState(true);
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);

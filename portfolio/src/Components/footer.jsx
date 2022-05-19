@@ -1,9 +1,9 @@
 import React from "react";
 import "../Styles/footer.scss";
 import { useTranslation } from 'react-i18next';
-
+import {DiGithubBadge} from 'react-icons/di'
 const Footer = () => {
-  const[t,i18n]=useTranslation("global")
+  const{t}=useTranslation("global")
 
   return (
     <div id="contacto" className="footerWrapper">
@@ -44,7 +44,7 @@ const Footer = () => {
           />
           <input type="submit" value={t('footer.footer_send')} />
         </form>
-        <small>{t('footer.footer_bottom_text')}</small>
+        <small>{t('footer.footer_bottom_text')}<a href="https://github.com/matidsc/Portfolio"> <DiGithubBadge size={30}/></a></small>
       </footer>
     </div>
   );

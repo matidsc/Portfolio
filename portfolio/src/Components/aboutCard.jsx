@@ -7,7 +7,7 @@ const AboutCard = (props) => {
         <p className="f2 heading">{props.year}</p>
       </div>
 
-      <div class="tl-content">
+      <div className="tl-content">
         <h1>{props.titulo}</h1>
         <p>{props.infoContent}</p>
       </div>

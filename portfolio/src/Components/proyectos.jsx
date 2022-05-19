@@ -9,7 +9,7 @@ const Proyectos = () => {
   const[t,i18n]=useTranslation("global")
 let origen=i18n.language==='en'?projectsEN:projectsES
   return (
-    <SectionWrapper class="projectCards" titulo={t('projects.projects_title')} id='proyectos'>
+    <SectionWrapper tipo="projectCards" titulo={t('projects.projects_title')} id='proyectos'>
        
       
       {origen.map((proyecto, index) => {

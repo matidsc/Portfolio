@@ -12,7 +12,7 @@ const About =()=>{
 
     return(
         <div id='about' className='about'>
-       <SectionWrapper class='aboutCards' titulo={t('about.about_title')}>
+       <SectionWrapper tipo='aboutCards' titulo={t('about.about_title')}>
         <div id='timeline'>
         {origen.map((card,index)=>
             <AboutCard key={index} titulo={card.Nombre} year={card.Year} infoContent={card.infoContent}/>

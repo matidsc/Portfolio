@@ -8,7 +8,7 @@ const SectionWrapper = (props) => {
                          
             <div className='contentWrapper'>
                 <h1 className='titulo'>{props.titulo}</h1>
-                <div className={props.class}>
+                <div className={props.tipo}>
                     {props.children}
                 </div>
             </div>

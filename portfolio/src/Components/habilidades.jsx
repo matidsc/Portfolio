@@ -5,11 +5,11 @@ import SectionWrapper from '../containers/sectionWrapper'
 import { useTranslation } from "react-i18next";
 
 const Habilidades = () => {
-    const[t,i18n]=useTranslation("global")
+    const[t]=useTranslation("global")
 
     return (
 
-        <SectionWrapper titulo={t('skills.skills_title')} class='content' id='habilidades'>
+        <SectionWrapper titulo={t('skills.skills_title')} tipo='content' id='habilidades'>
             
             {skill.map((skill, index) =>
  
