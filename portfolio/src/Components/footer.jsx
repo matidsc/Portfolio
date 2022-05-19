@@ -44,7 +44,7 @@ const Footer = () => {
           />
           <input type="submit" value={t('footer.footer_send')} />
         </form>
-        <small>{t('footer.footer_bottom_text')}<a href="https://github.com/matidsc/Portfolio"> <DiGithubBadge size={30}/></a></small>
+        <small>{t('footer.footer_bottom_text')}<a target="_blank" href="https://github.com/matidsc/Portfolio"> <DiGithubBadge size={30}/></a></small>
       </footer>
     </div>
   );
