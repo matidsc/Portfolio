@@ -19,19 +19,19 @@ const NavBar = () => {
         <FaCode size="40" color="rgb(187, 185, 185)" />
         <ul className={showNavBar?"navShow":"navHidden"}>
           <li>
-            <a href="#heroSection">{t("nav.nav_home")}</a>
+            <a onClick={()=>setShowNavBar(!showNavBar)} href="#heroSection">{t("nav.nav_home")}</a>
           </li>
           <li>
-            <a href="#habilidades">{t('nav.nav_skills')}</a>
+            <a onClick={()=>setShowNavBar(!showNavBar)} href="#habilidades">{t('nav.nav_skills')}</a>
           </li>
           <li>
-            <a href="#proyectos">{t('nav.nav_projects')}</a>
+            <a onClick={()=>setShowNavBar(!showNavBar)} href="#proyectos">{t('nav.nav_projects')}</a>
           </li>
           <li>
-            <a href="#about">{t('nav.nav_about')}</a>
+            <a onClick={()=>setShowNavBar(!showNavBar)} href="#about">{t('nav.nav_about')}</a>
           </li>
           <li>
-            <a href="#contacto">{t('nav.nav_contact')}</a>
+            <a onClick={()=>setShowNavBar(!showNavBar)} href="#contacto">{t('nav.nav_contact')}</a>
           </li>
         </ul>
         <div className="navContact">
