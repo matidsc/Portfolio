@@ -2,7 +2,7 @@
   {
     "id": 1,
     "Titulo": "Sistema de autoconsulta médica",
-    "Descripcion": "Proyecto final estudiantil desarrollado en Vb.NET y MySQL que consistió en la creación de un sistema donde pacientes podían obtener un diagnóstico primario según los síntomas ingresados y poder comunicarse con su médico mediante un chat si así desearan.",
+    "Descripcion": "Proyecto final estudiantil desarrollado en Vb.NET y MySQL que consistió en la creación de un sistema donde pacientes podían obtener un diagnóstico primario según los síntomas ingresados y comunicarse con su médico mediante un chat si así lo deseaban.",
     "Github": "",
     "Tecnologias": [
       {
@@ -59,7 +59,7 @@
   {
     "id": 4,
     "Titulo": "Sunnyside Website",
-    "Descripcion": "Desafío de diseño del sitio web FrontendMentor. Hice uso de CSS Grid, CSS Flexbox y de responsive design. Además de Javascript para la interacción.",
+    "Descripcion": "Desafío de diseño del sitio web FrontendMentor. Hice uso de CSS Grid, CSS Flexbox y de responsive design, además de Javascript para la interacción.",
     "Github": "https://github.com/matidsc/sunnysideWebsite",
     "Live": "https://matidscsunnyside.netlify.app",
     "Tecnologias": [

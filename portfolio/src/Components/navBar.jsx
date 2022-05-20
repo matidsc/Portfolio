@@ -10,6 +10,9 @@ import LanguageSwitch from "./languageSwitch";
 const NavBar = () => {
   const [showNavBar,setShowNavBar]=useState(false)
   const[t]=useTranslation("global")
+  showNavBar && window.matchMedia("(max-width: 768px)").matches
+  ? (document.body.style.overflowY = "hidden")
+  : (document.body.style.overflowY = "scroll");
   return (
     <nav>
       <div className="content">
@@ -37,27 +40,27 @@ const NavBar = () => {
             href="https://github.com/matidsc"
             target="_blank"
           >
-            <FaGithub size="30" color="rgb(187, 185, 185)" />
+            <FaGithub size="25" color="rgb(187, 185, 185)" />
           </a>
           <a
             title="Linkedin"
             href="https://www.linkedin.com/in/MatiasDaSilva-178625212"
             target="_blank"
           >
-            <FaLinkedin size="30" color="rgb(187, 185, 185)" />
+            <FaLinkedin size="25" color="rgb(187, 185, 185)" />
           </a>
           <a
             title="Resume"
             href="https://drive.google.com/file/d/1L_gsojEo-hMEZ6mR_nXr2CxmbzIk-4E8/view?usp=sharing"
             target="_blank"
           >
-            <RiPagesLine size="30" color="rgb(187, 185, 185)" />
+            <RiPagesLine size="25" color="rgb(187, 185, 185)" />
           </a>
           <LanguageSwitch/>
         </div>
         <span onClick={()=>setShowNavBar(!showNavBar)} className="hamburgerWrapper">
       
-          <CgMenuRight className="hamburger" size="30" color="rgb(187, 185, 185)" />
+          <CgMenuRight className="hamburger" size="40" color="rgb(187, 185, 185)" />
         </span>
       </div>
     </nav>
