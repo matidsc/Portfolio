@@ -108,26 +108,8 @@ input {
     box-shadow: 0 0 15px #db6c3c;
   }
 }
-@media screen and (max-width: 768px) {
-  .footerWrapper {
-    footer {
-     
-      .frmFooter {
-       
-        width: 100%;
-      }
-    }
-  }
-}
-@media screen and (max-width:500px){
-  .footerWrapper {
-    footer {
-      .frmFooter{
-        width:90% ;
-      }
-    }
-  }
-}
+
+
 @media screen and (max-width: 900px) {
   .footerWrapper {
     footer {
@@ -154,5 +136,16 @@ input {
 				height: 20vh;
 			}
     }}
+  }
+}
+@media screen and (max-width: 500px) {
+  .footerWrapper {
+    footer {
+     
+      .frmFooter {
+       
+        width: 100%;
+      }
+    }
   }
 }
