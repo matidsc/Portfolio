@@ -2,21 +2,21 @@
     {
         "Nombre": "Small projects with Java",
         "Year": "2019",
-        "infoContent": "I was introduced to Java oriented to desktop apps."
+        "infoContent": "I was introduced to Java oriented to desktop apps"
     },
     {
         "Nombre": "Final project",
         "Year": "2020",
-        "infoContent": "I was a developer in the creation of a self consulting medical system."
+        "infoContent": "I was a developer in the creation of a self consulting medical system"
     },
     {
         "Nombre": "Personal projects",
         "Year": "2021",
-        "infoContent": "Improved my web development skills by building projects and I certified my english language level."
+        "infoContent": "Improved my web development skills by building projects and I certified my english language level"
     }, 
     {
         "Nombre": "Projects with ReactJS",
         "Year": "2022",
-        "infoContent": "At present I am complementing my education mainly with practical projects."
+        "infoContent": "At present I am complementing my education mainly with practical projects"
     }
 ]
