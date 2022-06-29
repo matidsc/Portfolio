@@ -3,7 +3,7 @@
     "id": 1,
     "Titulo": "Self consulting medical system",
     "Descripcion": "School final project developed in Vb.NET and MySQL that consisted of the creation of a system in which patients could obtain a primary diagnosis based on their symptoms. In addition, patients were able to start a conversation online with their medic if wanted.",
-    "Github": "",
+    "Github": "https://github.com/matidsc/Medicare",
     "Tecnologias": [
       {
         "nombre": "DiVisualstudio",

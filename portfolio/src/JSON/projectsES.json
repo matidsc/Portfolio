@@ -3,7 +3,7 @@
     "id": 1,
     "Titulo": "Sistema de autoconsulta médica",
     "Descripcion": "Proyecto final estudiantil desarrollado en Vb.NET y MySQL que consistió en la creación de un sistema donde pacientes podían obtener un diagnóstico primario según los síntomas ingresados y comunicarse con su médico mediante un chat si así lo deseaban.",
-    "Github": "",
+    "Github": "https://github.com/matidsc/Medicare",
     "Tecnologias": [
       {
         "nombre": "DiVisualstudio",
