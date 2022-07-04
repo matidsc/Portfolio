@@ -18,7 +18,7 @@ const About =()=>{
             <AboutCard key={index} titulo={card.Nombre} year={card.Year} infoContent={card.infoContent}/>
        )}
        </div>
-       <a href="https://drive.google.com/file/d/1umFRV0JUa5lkf1p8qkAeWXZGlmbK1bP8/view?usp=sharing" target='_blank'>
+       <a href="https://drive.google.com/file/d/1xjyB-1T6GrNLEaEv29_aJ1Ggbsnr12IZ/view?usp=sharing" target='_blank'>
           <div className='cvDownload'>
             <span>{t('about.about_cv')}</span>
             <HiDownload size='40px' color='white'/>

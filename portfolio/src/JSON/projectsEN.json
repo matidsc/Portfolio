@@ -40,24 +40,6 @@
   },
   {
     "id": 3,
-    "Titulo": "Beauty Studio",
-    "Descripcion": "Professional work in which I used ReactJS and SASS to develop a website for a beauty studio.",
-    "Github": "https://github.com/matidsc/marce-banizi/tree/Front",
-    "Live": "",
-    "Tecnologias": [
-      {
-        "nombre": "DiReact",
-        "color": "#5CCFEE"
-      },
-      {
-        "nombre": "DiSass",
-        "color": "#D25191"
-      }
-    ],
-    "imagen":"https://i.imgur.com/FH5JXLT.png"
-  },
-  {
-    "id": 4,
     "Titulo": "Sunnyside Website",
     "Descripcion": "Design challenge from the FrontendMentor site. I used CSS Grid, CSS FLexbox and repsonsive design. Apart from using JavaScript for user interaction.",
     "Github": "https://github.com/matidsc/sunnysideWebsite",
@@ -77,5 +59,24 @@
       }
     ],
     "imagen":"https://i.imgur.com/cybyfIJ.png"
+  },
+  {
+    "id": 4,
+    "Titulo": "Beauty Studio",
+    "Descripcion": "Professional work in which I used ReactJS and SASS to develop a website for a beauty studio.",
+    "Github": "https://github.com/matidsc/marce-banizi/tree/Front",
+    "Live": "",
+    "Tecnologias": [
+      {
+        "nombre": "DiReact",
+        "color": "#5CCFEE"
+      },
+      {
+        "nombre": "DiSass",
+        "color": "#D25191"
+      }
+    ],
+    "imagen":"https://i.imgur.com/FH5JXLT.png"
   }
+
 ]
