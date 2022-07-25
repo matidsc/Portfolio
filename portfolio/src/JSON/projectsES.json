@@ -19,7 +19,7 @@
   {
     "id": 2,
     "Titulo": "E-commerce",
-    "Descripcion": "Proyecto final donde utlicé ReactJS, SASS y Firebase para crear el frontend de un e-commerce con carrito de compras. ",
+    "Descripcion": "Proyecto final donde utlicé ReactJS, SASS y Firebase para crear el FrontEnd de un e-commerce con carrito de compras. ",
     "Github": "https://github.com/matidsc/TechUY_Matias_daSilva/tree/Firebase",
     "Live": "https://matidsc.github.io/TechUY_Matias_daSilva/",
     "Tecnologias": [
@@ -36,7 +36,7 @@
         "color": "#F29C0B"
       }
     ],
-    "imagen":"https://i.imgur.com/ky734zw.png"
+    "imagen":"https://i.imgur.com/WRRdspp.png"
   },
   
   {
@@ -77,6 +77,6 @@
         "color": "#D25191"
       }
     ],
-    "imagen":"https://i.imgur.com/FH5JXLT.png"
+    "imagen":"https://i.imgur.com/RvmQlhc.png"
   }
 ]
