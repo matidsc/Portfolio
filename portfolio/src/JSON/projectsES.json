@@ -64,9 +64,9 @@
   {
     "id": 4,
     "Titulo": "Estudio de belleza",
-    "Descripcion": "Trabajo profesional donde utlicé ReactJS y SASS para desarrollar el sitio web de un estudio de belleza.",
+    "Descripcion": "Trabajo profesional donde utlicé ReactJS y SASS para desarrollar el sitio web de un estudio de belleza. Este proyecto se encuentra en su fase final de desarrollo (Fecha estimada de finalización: Agosto - Septiembre 2022).",
     "Github": "https://github.com/matidsc/marce-banizi/tree/Front",
-    "Live": "",
+    "Live": "https://marcebaniziestudio.com/",
     "Tecnologias": [
       {
         "nombre": "DiReact",

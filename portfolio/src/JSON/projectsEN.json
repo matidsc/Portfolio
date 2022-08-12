@@ -19,7 +19,7 @@
   {
     "id": 2,
     "Titulo": "E-commerce",
-    "Descripcion": "Final project in which I used ReactJS, SASS and Firebase to create an e-commerce frontent with functional shopping cart. ",
+    "Descripcion": "Final project in which I used ReactJS, SASS and Firebase to create an e-commerce FrontEnd with functional shopping cart. ",
     "Github": "https://github.com/matidsc/TechUY_Matias_daSilva/tree/Firebase",
     "Live": "https://matidsc.github.io/TechUY_Matias_daSilva/",
     "Tecnologias": [
@@ -63,9 +63,9 @@
   {
     "id": 4,
     "Titulo": "Beauty Studio",
-    "Descripcion": "Professional work in which I used ReactJS and SASS to develop a website for a beauty studio.",
+    "Descripcion": "Professional work in which I used ReactJS and SASS to develop a website for a beauty studio. This project is at its final developing stage (Estimated finishing date: August - September 2022).",
     "Github": "https://github.com/matidsc/marce-banizi/tree/Front",
-    "Live": "",
+    "Live": "https://www.marcebaniziestudio.com/",
     "Tecnologias": [
       {
         "nombre": "DiReact",
